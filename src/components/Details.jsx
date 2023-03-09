@@ -23,7 +23,7 @@ const Details = () => {
 
     const getdata = async () => {
 
-        const res = await fetch(`http://localhost:4000/getuser/${id}`, {
+        const res = await fetch(`https://crud-yw9z.onrender.com/getuser/${id}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
