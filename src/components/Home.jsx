@@ -22,7 +22,7 @@ const Home = () => {
 
     const getdata = async () => {
 
-        const res = await fetch("http://localhost:4000/getdata", {
+        const res = await fetch("https://crud-yw9z.onrender.com/getdata", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -48,7 +48,7 @@ const Home = () => {
 
     const deleteuser = async (id) => {
 
-        const res2 = await fetch(`http://localhost:4000/deleteuser/${id}`, {
+        const res2 = await fetch(`https://crud-yw9z.onrender.com/deleteuser/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"

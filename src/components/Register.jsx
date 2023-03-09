@@ -35,7 +35,7 @@ const Register = () => {
 
         const { name, email, work, add, mobile, desc, age } = inpval;
 
-        const res = await fetch("http://localhost:4000/register", {
+        const res = await fetch("https://crud-yw9z.onrender.com/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
